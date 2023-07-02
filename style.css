@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}.container{
+    background-color: aqua;
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+
+   
+}
+.container h1{
+    text-align: center;
+}
+
+input , textarea{
+   
+    border:  2px solid black;
+    border-radius: 6px;
+    outline: none;
+    width: 80%;
+    margin: 11px auto;
+    padding: 12px;
+    font-size: 15px;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn{
+    color: azure;
+    background-color: blueviolet;
+    padding: 10px 19px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+submitMsg{
+    color: black;
+}
